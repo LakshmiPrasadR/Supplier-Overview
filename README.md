@@ -13,7 +13,7 @@ Our task is to build a dashboard page and name it as “Supplier Overview”, wh
 -	This page of the report was completely dedicated to understand the supplier behaviour and overview of the supply chain. The individual tables were imported into BI and Data Model was created by creating the Key columns to Design the relationship. 
 -	Visuals like Gauge chart for the supplier count, Donut chart to know the MSME type and Pie chart for the Strategy status were designed. Along with those to understand the demographics Map chart was used.
 -	A table chart gave the detailed outlook on relationship between the Buyer, Payments terms and supplier information. Slicers with Business Unit, Part Group, were used to slice and understand the criteria.
--	Conditional Column was created using DAX to divide the materials into Ferrous and Non- Ferrous categories. To make the Commodity Column more personalised Chiclet Slicer was used and Images were used asper data.
+-	Conditional Column was created using **DAX** to divide the materials into Ferrous and Non- Ferrous categories. To make the Commodity Column more personalised Chiclet Slicer was used and Images were used asper data.
 
 # Scenario: 2
 We would need another dashboard page and name it as “Volume Movement” to help analyse the Purchase volume and Tonnage volume movement throughout different years for past comparisons and business planning upcoming demands. We would need multiple filtering options as per business units, purchasing groups, Manufacturing plants, Part Family, supplier names, and raw materials.
@@ -25,10 +25,10 @@ We would need another dashboard page and name it as “Volume Movement” to hel
 -	Features like Edit Interactions, Tooltips, Buttons, Bookmarks were created and used to understand the story behind the Visuals.
 
 # Learnings:
--	Non-MSME suppliers are basically the ones which have a Turnover > 100cr (1000 million), lower than this will be classified into different types of MSME category. We have almost 5 suppliers where we cannot grow business.
--	We have a forecast that the business for ferrous casting will reduce year on year, we would need to stop business in future with four (AAPL, PAPL, MNI, ICPL) of our ferrous casting suppliers as the demand starts coming down.
--	The Management wants us to minimize the risk with our suppliers, the biggest NoGo Suppliers that we have are FBMPL where the purchase volume is more with payment terms in 90 days.
--	We want to declutter the supply chain for our top 5 suppliers, we can decide to buy from one single source and negotiate for cost saving. SPCIP group have more than one casting supplier.
+-	**Non-MSME** suppliers are basically the ones which have a **Turnover > 100cr (1000 million)**, lower than this will be classified into different types of MSME category. We have almost **5 suppliers where we cannot grow** business.
+-	We have a forecast that the business for ferrous casting will reduce year on year, we would need to stop business in future with four **(AAPL, PAPL, MNI, ICPL)** of our ferrous casting suppliers as the demand starts coming down.
+-	The Management wants us to minimize the risk with our suppliers, the **biggest NoGo Suppliers** that we have are **FBMPL** where the purchase volume is more with payment terms in 90 days.
+-	We want to declutter the supply chain for our top 5 suppliers, we can decide to buy from one single source and negotiate for cost saving. **SPCIP group have more than one casting supplier**.
 
 
 
